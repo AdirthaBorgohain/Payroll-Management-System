@@ -1,0 +1,38 @@
+.tableview{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableview td, .tableview th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tableview tr:nth-child(even){background-color: #f2f2f2;}
+
+.tableview tr:hover {background-color: #ddd;}
+
+.tableview th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: white;
+}
+
+.button{
+    background-color: rgb(72, 179, 11);
+    border: none;
+    color: white;
+    padding: 9px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+  }
+
+  .heading{
+      font-size: 30px;
+      font-weight: 200;
+  }
